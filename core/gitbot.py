@@ -1,11 +1,12 @@
 #!/usr/bin/python3
+import os
 import requests as res
 import json
 def gitusers(username):
 	response = res.get("https://api.github.com/users/" + username).text
 	data = json.loads(response)
 	print("[+] Dumping Sensitive information from github")
-	system('tput setaf 9')
+	os.system('tput setaf 9')
 	print("[+] Name : ", str(data['name']))
 	print("[+] Location : ", str(data['location']))
 	print("[+] Website : ", str(data['blog']))
