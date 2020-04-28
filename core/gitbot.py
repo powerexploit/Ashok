@@ -21,5 +21,5 @@ def gitemails(username):
 		dump = data["payload"]["commits"][0]["author"]["email"]
 		print("[+] Email data : ", dump)	
 	except KeyError:
-		system('tput setaf 12')
+		os.system('tput setaf 12')
 		print("[+] Aww Snap Unable to find out the email address!")
