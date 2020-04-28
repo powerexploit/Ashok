@@ -10,6 +10,7 @@ from core.gitbot import gitusers,gitemails
 from core.linkextractor import extract
 from core.bannergrab import banner
 from core.subdomains import sub
+from core.geoip import geo
 from plugins.whoislookup import whois
 from plugins.nslookup import nslookup
 from plugins.dnslookup import dnslookup
