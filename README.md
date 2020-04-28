@@ -57,6 +57,7 @@ Ashok is a beginners friendly tool for beginners in penetration testing and Osin
 
 **[+] Note : You can check whole help page of Ashok with the following command :**
 **~> python3 Ashok.py -h**
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uiiarf08z0dk0vk6vhp8.png)
 
 **Here are some basic example to use Ashok for your Osint recon :**
 ```
