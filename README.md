@@ -48,7 +48,7 @@ Ashok is very simple to install with the following steps :
 ~> git clone https://github.com/ankitdobhal/Ashok
 ~> cd Ashok
 ~> pip3 install -r requirements.txt
-~> python3 Ashok -h
+~> python3 Ashok.py -h
 ```
 
 ## Usage
