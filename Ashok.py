@@ -12,7 +12,6 @@ from core.bannergrab import banner
 from core.subdomains import sub
 from core.geoip import geo
 from plugins.whoislookup import whois
-from plugins.nslookup import nslookup
 from plugins.dnslookup import dnslookup
 from plugins.subnetlookup import subnetlookup
 from plugins.httpheaders import httpheader
@@ -30,7 +29,6 @@ os.system('tput setaf 2')
 parser = argparse.ArgumentParser()
 parser.add_argument('--headers',help='Httpheaders of target url')
 parser.add_argument('--whois',help='Whois of target domain')
-parser.add_argument('--nslook',help='Nslookup of target domain')
 parser.add_argument('--dns',help='Dnslookup of target domain')
 parser.add_argument('--subdomain',help='Subdomain lookup of target domain')
 parser.add_argument('--nmap',help='Nmapscan of target domain')
@@ -52,12 +50,6 @@ if args.whois:
 	print("[+] Whois lookup of target domain")
 	os.system('tput setaf 7')
 	whois(args.whois)
-	exit()
-
-if args.nslook:
-	print("[+] NSLOOKUP of target domain")
-	os.system('tput setaf 10')
-	nslookup(args.nslook)
 	exit()
 
 if args.nmap:
