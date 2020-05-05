@@ -16,23 +16,21 @@
 
 [+] 3  - Dns Lookup
 
-[+] 4  - Nslookup
+[+] 4  - Banner Graber
 
-[+] 5  - Banner Graber
+[+] 5  - Github Information Extractor
 
-[+] 6  - Github Information Extractor
+[+] 6  - Nmap Scan
 
-[+] 7  - Nmap Scan
+[+] 7  - Link Extractor 
 
-[+] 8  - Link Extractor 
+[+] 8  - Subdomain Identifier
 
-[+] 9  - Subdomain Identifier
+[+] 9 - Subnet Lookup 
 
-[+] 10 - Subnet Lookup 
+[+] 10 - Cms/Technology Detector With Custom Headers
 
-[+] 11 - Cms/Technology Detector With Custom Headers
-
-[+] 12 - Geoip Lookup
+[+] 11 - Geoip Lookup
 ```
 
 ## Compatibility
@@ -99,3 +97,6 @@ You can contribute in following ways:
 - Develop plugins
 - Give suggestions to make it better
 - Fix issues & submit a pull request
+
+## Credits
+* [hacktarget](https://hackertarget.com/)
