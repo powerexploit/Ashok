@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/ankitdobhal/Ashok"><img src="https://dev-to-uploads.s3.amazonaws.com/i/vbm48fw5v25qju2h8lr4.png" alt="Osint"></a>
+  <a href="https://github.com/ankitdobhal/Ashok"><img src="https://dev-to-uploads.s3.amazonaws.com/i/vbm48fw5v25qju2h8lr4.png" alt="Ashok"></a>
   <br>
   Ashok
   <br>
@@ -26,7 +26,7 @@
 
 [+] 8  - Subdomain Identifier
 
-[+] 9 - Subnet Lookup 
+[+] 9  - Subnet Lookup 
 
 [+] 10 - Cms/Technology Detector With Custom Headers
 
@@ -35,9 +35,8 @@
 
 ## Compatibility
 Ashok is a Osint Recon Swiss Army Knife, It is still in a beta state so it it not compatible with windows .It will run with following configuration:
-
-Operating Systems: Linux, Mac
-Python Versions: Python3.5, Python 3.7
+* Operating Systems: Linux, Mac
+* Python Versions: Python3.5, Python 3.7
 
 ## Installation
 Ashok is very simple to install with the following steps :
@@ -51,11 +50,11 @@ Ashok is very simple to install with the following steps :
 
 ## Usage
 
-Ashok is a beginners friendly tool for beginners in penetration testing and Osint, it can be used with the following command and examples : 
+Ashok is a beginners friendly tool for beginners in penetration testing and OSINT, it can be used with the following command and examples : 
 
 **[+] Note : You can check whole help page of Ashok with the following command :**
 **~> python3 Ashok.py -h**
-![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/uiiarf08z0dk0vk6vhp8.png)
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/2o92zhk3e9hztyer99c0.png)
 
 **Here are some basic example to use Ashok for your Osint recon :**
 ```
@@ -99,4 +98,4 @@ You can contribute in following ways:
 - Fix issues & submit a pull request
 
 ## Credits
-* [hacktarget](https://hackertarget.com/)
+* [hackertarget](https://hackertarget.com/)
