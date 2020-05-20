@@ -50,41 +50,43 @@ Ashok is very simple to install with the following steps :
 
 ## Usage
 
-Ashok is a beginners friendly tool for beginners in penetration testing and OSINT, it can be used with the following command and examples : 
+Ashok is a beginners friendly tool for beginners in penetration testing and OSINT, it can be used with the following command and examples.
 
 **[+] Note : You can check whole help page of Ashok with the following command :**
-**~> python3 Ashok.py -h**
+
+```bash
+~> python3 Ashok.py -h
+```
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/2o92zhk3e9hztyer99c0.png)
 
 **Here are some basic example to use Ashok for your Osint recon :**
-```
-1. HTTP Header Checker
 
+**1. HTTP Header Checker**
+```
 ~> python3 Ashok.py --headers domain_name
 example : python3 Ashok.py --headers example.com
 ```
 
-```
-2. Whois Lookup
-
+**2. Whois Lookup**
+```bash
 ~> python3 Ashok.py --whois domain_name
 example : python3 Ashok.py --whois example.com
 ```
 
-```
-3.Banner Graber
+**3.Banner Graber**
+```bash
 ~> python3 Ashok.py --banner ip_address
 example : python3 Ashok.py --banner 8.8.8.8
 ```
 
-```
-4. Github Information Extractor
+**4. Github Information Extractor**
+```bash
 ~> python3 Ashok.py --username username_of_github_user
 example : python3 Ashok.py --username Elliot
 ```
 
-```
-5. Cms/Technology Detector With Custom Headers
+**5. Cms/Technology Detector With Custom Headers**
+```bash
 ~> python3 Ashok.py --cms url_of_target
 example : python3 Ashok.py --cms https://www.example.com
 ```
