@@ -35,7 +35,7 @@ Reconnaissance is the first phase of penetration testing which means gathering i
 ```
 
 ## How to use Ashok?
-A detailed usage guide is available on [Usage](https://github.com/ankitdobhal/Ashok/wiki/Usage) section of the [Wiki](https://github.com/ankitdobhal/Ashok.git).
+A detailed usage guide is available on [Usage](https://github.com/ankitdobhal/Ashok/wiki/Usage) section of the [Wiki](https://github.com/ankitdobhal/Ashok/wiki).
 
 But Some index of options is given below:
 
