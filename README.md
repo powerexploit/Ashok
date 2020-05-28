@@ -15,7 +15,7 @@
 </p>
 
 ## Introduction
-Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned So Ashok is an Incredible fast recon tool for penetration tester which is specially designed for Reconnaissance phase. And in [Ashok-v1.1](https://github.com/ankitdobhal/Ashok/releases) you can find the [advanced google dorker](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber) and [wayback crawling machine](https://github.com/ankitdobhal/Ashok/wiki/Usage#Dump-internet-archive-machive-with-json-output-for-single-url).
+Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned So Ashok is an Incredible fast recon tool for penetration tester which is specially designed for Reconnaissance phase. And in [Ashok-v1.1](https://github.com/ankitdobhal/Ashok/releases) you can find the [advanced google dorker](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber) and [wayback crawling machine](https://github.com/ankitdobhal/Ashok/wiki/Usage#dump-internet-archive-machive-with-json-output-for-single-url).
 
 ![Ashok](https://dev-to-uploads.s3.amazonaws.com/i/qdtr9nbzanqs8nizl4jr.png)
 
@@ -40,7 +40,7 @@ A detailed usage guide is available on [Usage](https://github.com/ankitdobhal/As
 But Some index of options is given below:
 
 - [Extract Http Headers from single url](https://github.com/ankitdobhal/Ashok/wiki/Usage#Extract-Http-Headers-from-single-url)
-- [Dump internet-archive machine with json output for single url](https://github.com/ankitdobhal/Ashok/wiki/Usage#Dump-internet-archive-machive-with-json-output-for-single-url)
+- [Dump internet-archive machine with json output for single url](https://github.com/ankitdobhal/Ashok/wiki/Usage#dump-internet-archive-machive-with-json-output-for-single-url)
 - [Google dorking using number of results as dorknumber](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber)
 - [Dns Lookup of single target domain](https://github.com/ankitdobhal/Ashok/wiki/Usage#Dns-Lookup-of-single-target-domain)
 - [Subdomain Lookup of single target domain](https://github.com/ankitdobhl/Ashok/wiki/Usage#Subdomain-Lookup-of-single-target-domain)
