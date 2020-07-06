@@ -11,15 +11,17 @@
 <p align="center">
   <a href="https://github.com/ankitdobhal/Ashok/releases">
     <img src="https://img.shields.io/github/release/ankitdobhal/Ashok.svg">
+    <img src="https://forthebadge.com/images/badges/built-with-love.svg">
+    <img src="https://forthebadge.com/images/badges/made-with-python.svg">
   </a>
 </p>
 
-## Introduction
+##  📌 Introduction
 Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned So Ashok is an Incredible fast recon tool for penetration tester which is specially designed for Reconnaissance phase. And in [Ashok-v1.1](https://github.com/ankitdobhal/Ashok/releases) you can find the [advanced google dorker](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber) and [wayback crawling machine](https://github.com/ankitdobhal/Ashok/wiki/Usage#dump-internet-archive-machive-with-json-output-for-single-url).
 
 ![Ashok](https://dev-to-uploads.s3.amazonaws.com/i/qdtr9nbzanqs8nizl4jr.png)
 
-## Main Features
+## 💥 Main Features
 ```python
 - Wayback Crawler Machine
 - Google Dorking without limits
@@ -27,14 +29,14 @@ Reconnaissance is the first phase of penetration testing which means gathering i
 - Subdomain Identifier 
 - Cms/Technology Detector With Custom Headers
 ```
-## Installation
+## ⚡ Installation
 ```
 ~> git clone https://github.com/ankitdobhal/Ashok
 ~> cd Ashok
 ~> python3.7 -m pip3 install -r requirements.txt
 ```
 
-## How to use Ashok?
+## 💥 How to use Ashok?
 A detailed usage guide is available on [Usage](https://github.com/ankitdobhal/Ashok/wiki/Usage) section of the [Wiki](https://github.com/ankitdobhal/Ashok/wiki).
 
 But Some index of options is given below:
@@ -48,7 +50,7 @@ But Some index of options is given below:
 - [Extract data using Github username of target](https://github.com/ankitdobhal/Ashok/wiki/Usage#Extract-data-using-Github-username-of-target)
 - [Detect Cms of target url](https://github.com/ankitdobhal/Ashok/wiki/Usage#Detect-Cms-of-target-url)
 
-## Contribution
+## ❤️ Contribution
 You can contribute in following ways:
 
 - Report bugs
