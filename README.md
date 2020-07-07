@@ -10,8 +10,8 @@
 <h4 align="center">Incredible Fast Recon Swiss Army Knife</h4>	
 <p align="center">
   <a href="https://github.com/ankitdobhal/Ashok/releases">
-    <img src="https://img.shields.io/github/release/ankitdobhal/Ashok.svg">
     <img src="https://forthebadge.com/images/badges/built-with-love.svg">
+    <img src="https://img.shields.io/github/release/ankitdobhal/Ashok.svg">
     <img src="https://forthebadge.com/images/badges/made-with-python.svg">
   </a>
 </p>
