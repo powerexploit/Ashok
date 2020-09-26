@@ -17,7 +17,7 @@
 </p>
 
 ##  📌 Introduction
-Reconnaissance is the first phase of penetration testing which means gathering information before any real attacks are planned So Ashok is an Incredible fast recon tool for penetration tester which is specially designed for Reconnaissance phase. And in [Ashok-v1.1](https://github.com/ankitdobhal/Ashok/releases) you can find the [advanced google dorker](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber) and [wayback crawling machine](https://github.com/ankitdobhal/Ashok/wiki/Usage#dump-internet-archive-machive-with-json-output-for-single-url).
+**Reconnaissance** is the first phase of penetration testing which means gathering information before any real attacks are planned So Ashok is an Incredible fast recon tool for penetration tester which is specially designed for Reconnaissance phase. And in [Ashok-v1.1](https://github.com/ankitdobhal/Ashok/releases) you can find the [advanced google dorker](https://github.com/ankitdobhal/Ashok/wiki/Usage#Google-dorking-using-number-of-results-as-dorknumber) and [wayback crawling machine](https://github.com/ankitdobhal/Ashok/wiki/Usage#dump-internet-archive-machive-with-json-output-for-single-url).
 
 ![Ashok](https://dev-to-uploads.s3.amazonaws.com/i/qdtr9nbzanqs8nizl4jr.png)
 
