@@ -50,6 +50,15 @@ But Some index of options is given below:
 - [Extract data using Github username of target](https://github.com/ankitdobhal/Ashok/wiki/Usage#Extract-data-using-Github-username-of-target)
 - [Detect Cms of target url](https://github.com/ankitdobhal/Ashok/wiki/Usage#Detect-Cms-of-target-url)
 
+## Docker
+**Ashok** can be launched using a lightweight Python3.8-Alpine Docker image.
+```
+$ docker pull powerexploit/ashok-v1.2
+$ docker container run -it powerexploit/ashok-v1.2  --help
+```
+![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/h3barsr5x2no12jyjs3k.png)
+
+
 ## ❤️ Contribution
 You can contribute in following ways:
 
