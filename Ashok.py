@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 import os
-import sys
 import argparse
-import json
-import webtech
-from requests import get
 from core.nmap import nmap
 from core.gitbot import gitusers,gitemails
 from core.linkextractor import extract
@@ -17,6 +13,7 @@ from plugins.dnslookup import dnslookup
 from plugins.subnetlookup import subnetlookup
 from plugins.httpheaders import httpheader
 from plugins.techanalyzer import techno
+import sys
 os.system('tput setaf 9')
 print("""
 
@@ -58,67 +55,67 @@ if args.headers:
 	print("[+] Extracing http headers of target url")
 	os.system('tput setaf 10')
 	httpheader(args.headers)
-	exit()
+	sys.exit()
 
 if args.nmap:
 	print("[+] Port scanning of target domain")
 	os.system('tput setaf 10')
 	nmap(args.nmap)
-	exit()
+	sys.exit()
 
 if args.username:
 	gitusers(args.username)
 	gitemails(args.username)
-	exit()
+	sys.exit()
 
 if args.cms:
 	print("[+] Detecting CMS with Identified Technologies and Custom Headers from target url")
 	os.system('tput setaf 10')
 	techno(args.cms)
-	exit()
+	sys.exit()
 
 if args.cidr:
 	os.system('tput setaf 10')
 	subnetlookup(args.cidr)
-	exit()
+	sys.exit()
 
 if args.banner:
 	print("[+] Banner Grabing from target ip address")
 	os.system('tput setaf 10')
 	banner(args.banner)
-	exit()
+	sys.exit()
 
 if args.dns:
 	print("[+] DNS lookup of target domain")
 	os.system('tput setaf 10')
 	dnslookup(args.dns)
-	exit()
+	sys.exit()
 
 if args.subdomain:
 	print("[+] Subdomain lookup from target domain")
 	os.system('tput setaf 7')
 	sub(args.subdomain)
-	exit()
+	sys.exit()
 
 if args.extract:
 	print("[+] Extracting all hidden and visiable links from target url")
 	os.system('tput setaf 10')
 	extract(args.extract)
-	exit()
+	sys.exit()
 
 if args.geoip:
 	print("[+] Geoip lookup of target Ip address")
 	os.system('tput setaf 10')
 	geo(args.geoip)
-	exit()
+	sys.exit()
 
 if args.wayback:
 	print("[+] Dumping and Crawling Internet Archive Machine With Ashok")
 	waybackurl(args.wayback)
 	waybackrobots(args.wayback)
 	waybackjson(args.wayback)
-	exit()
+	sys.exit()
 
 if args.dorknumber:
 	dork(args.dorknumber)
-	exit()
+	sys.exit()
