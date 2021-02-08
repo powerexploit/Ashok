@@ -1,10 +1,6 @@
 #!/usr/bin/python3
 import os
-import sys
 import argparse
-import json
-import webtech
-from requests import get
 from core.nmap import nmap
 from core.gitbot import gitusers,gitemails
 from core.linkextractor import extract
