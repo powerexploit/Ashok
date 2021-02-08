@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-import sys
 from requests import get
 import json
 def banner(ip):
