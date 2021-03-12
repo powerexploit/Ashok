@@ -23,12 +23,17 @@ This document will help you in contributing to various issues or to create new o
 Go to the issues column and select the particulat issue you'd like to work on. Wait for it to be assigned it to you.
 
 
+![issue](https://github.com/Pranjal-2001/Ashok/blob/master/contributing.md/1.png "issue")
+
+
 ### STEP 2: Fork the issue
 
 Fork the issue as shown below to work on the issue in your personal space.
 You can clone the repository using
 
 ```https://github.com/ankitdobhal/Ashok.git```
+
+![fork](https://github.com/Pranjal-2001/Ashok/blob/master/contributing.md/2.png "fork")
 
 
 ### STEP 3: Work the issue 
