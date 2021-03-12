@@ -36,12 +36,14 @@ Add all the files/folders/images you need to solve the issue. Make sure you foll
 After completing, you can add it to the repository using 
 
 ``` # To add changes ```
+
 ```   git add . ``` 
 
 ### STEP 4: COMMIT 
 
 After using above mentioned instruction, you have to commit changes to your repository. You can do it so using 
 ``` #To commit the changes to the repository (message will be displayed along with changed files```
+
 ``` git commit -m "message"```
 
 ### STEP 5: Pull Request
