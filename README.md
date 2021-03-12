@@ -60,12 +60,30 @@ $ docker container run -it powerexploit/ashok-v1.2  --help
 
 
 ## ❤️ Contribution
-You can contribute in following ways:
+To contribute to the following repository, please read 
+* [Contributing Guidelines](https://github.com/Pranjal-2001/Ashok/blob/master/contributing.md/contributing.md)
 
-- Report bugs
-- Develop tool
-- Give suggestions to make it better
-- Fix issues & submit a pull request
+## In case you're stuck
+
+You can follow the instructions given below
+- [Forking a Repo](https://help.github.com/en/github/getting-started-with-github/fork-a-repo)
+- [Cloning a Repo](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request)
+- [How to create a Pull Request](https://opensource.com/article/19/7/create-pull-request-github)
+- [Getting started with Git and GitHub](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)
+
 
 ## Credits
 * [hackertarget](https://hackertarget.com/)
+
+## ❤️ Our Wonderful Contributers
+
+<table>
+  <tr> 
+   <td align="center"><a href="https://github.com/ankitdobhal"><img src="https://avatars.githubusercontent.com/u/38306679?s=400&u=d43208905a5b18293367e43c738502ea0ee08633&v=4" width="100px;" alt=""/><br /><sub><b>Ankit Dobhal</b></sub></a><br /><a>💻</a>
+   </td>
+   <td align="center"><a href="https://github.com/deepsourcebot"><img src="https://avatars.githubusercontent.com/u/60907429?s=400&u=33d4e22931d8206638350fbeb05190d9475cda1e&v=4" width="100px;" alt=""/><br /><sub><b>DeepSource Bot</b></sub></a><br /><a>💻</a>
+   </td>
+   
+  <tr>
+</table>
+
