@@ -1,9 +1,16 @@
 #!/usr/bin/python3
-import sys
+import json
 from os import system
-import webtech
+from Wappalyzer import Wappalyzer, WebPage
+import warnings 
 def techno(url):
-	obj = webtech.WebTech()
-	results = obj.start_from_url(url, timeout=1)
-	system('tput setaf 9')
-	sys.stdout.write(results)
+	try:
+		webpage = WebPage.new_from_url(url)
+		warnings.simplefilter("ignore")
+		wappalyzer = Wappalyzer.latest()
+		tech = wappalyzer.analyze_with_versions_and_categories(webpage)
+		data = json.dumps(tech, indent = 4)
+		system('tput setaf 9')
+		print(data)
+	except:
+		print("[+] Oops unable to connect..")
