@@ -1,3 +1,3 @@
-webtech
+python-Wappalyzer
 requests
 google
