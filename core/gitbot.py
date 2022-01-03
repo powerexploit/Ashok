@@ -14,12 +14,6 @@ def gitusers(username):
 	print("[+] Number of public gist Repository : ",str(data['public_gists']))
 
 def gitemails(username):
-	try:
-		response = res.get("https://api.github.com/users/%s/events/public" %(username))
-		jsn = response.json()
-		data = jsn[0]
-		dump = data["payload"]["commits"][0]["author"]["email"]
-		print("[+] Email data : ", dump)	
-	except KeyError:
-		os.system('tput setaf 12')
-		print("[+] Aww Snap Unable to find out the email address!")
+	response = res.get("https://api.github.com/users/%s/events" %(username))
+	expression=re.search(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}',response.text)
+	print("[+] Extracting Email data:\n", expression)
