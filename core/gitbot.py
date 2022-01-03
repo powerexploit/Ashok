@@ -15,5 +15,5 @@ def gitusers(username):
 
 def gitemails(username):
 	response = res.get("https://api.github.com/users/%s/events" %(username))
-	expression=re.search(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}',response.text)
+	expression=re.findall(r'[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,6}',response.text)
 	print("[+] Extracting Email data:\n", expression)
